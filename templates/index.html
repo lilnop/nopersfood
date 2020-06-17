@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+    {header}
+    {%block body%}
+    <!-- ***** Main Banner Area Start ***** -->
+    <div class="main-banner" id="top">
+        <img id="jollof" src="{{url_for('static',filename='food.jpg')}}" alt="jollof">
+
+        <div class="pic-overlay header-text">
+            <div class="caption">
+                <h2>NOPERS <em>FOODS</em> IRRESISTIBLY GOOD!</h2>
+                <div class="main-button scroll-to-section">
+                    <a href="#">MAKE RESERVATION</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Main Banner Area End ***** -->
+
+    <!-- ***** Menu Start ***** -->
+    <section class="section" id="features">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h2>VARIETIES OF FOODS TO CHOOSE FROM</h2>
+                        <p>Food available for people from all cultural backgrounds.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{{url_for('static',filename='food-icon.png')}}" class="order-img" alt="First One">
+                            </div>
+                            <div class="right-content">
+                                <h4>Ghana Jollof</h4>
+                                <p>Ghana Jollof, no comments here.Tastes extremely good</p>
+                                <a href="#" class="text-button">Order</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{{url_for('static',filename='food-icon.png')}}" class="order-img" alt="second one">
+                            </div>
+                            <div class="right-content">
+                                <h4>Nigerian Jollof</h4>
+                                <p>Runner up after Ghana jollof. It also has a unique taste</p>
+                                <a href="#" class="text-button">Order</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{{url_for('static',filename='food-icon.png')}}" class="order-img" alt="third gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Chicken Wings</h4>
+                                <p>Lorem ipsum dolor sit amet,  rerum non delectus nemo iusto, nesciunt quis impedit. </p>
+                                <a href="#" class="text-button">order</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6">
+                    <ul class="features-items">
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{{url_for('static',filename='food-icon.png')}}" class="order-img" alt="fourth muscle">
+                            </div>
+                            <div class="right-content">
+                                <h4>Pizza</h4>
+                                <p>Lorem ipsum dolor sit amet, consecteturNostrum s nemo iusto, nesciunt quis impedit. </p>
+                                <a href="#" class="text-button">order</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{{url_for('static',filename='food-icon.png')}}" class="order-img" alt="training fifth">
+                            </div>
+                            <div class="right-content">
+                                <h4>Rice and Stew</h4>
+                                <p>Lorem ipsum dolor sit amet, consecteturNostrum s nemo iusto, nesciunt quis impedit. </p>
+                                <a href="#" class="text-button">order</a>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <div class="left-icon">
+                                <img src="{{url_for('static',filename='food-icon.png')}}" class="order-img" alt="gym training">
+                            </div>
+                            <div class="right-content">
+                                <h4>Programmers Fufu</h4>
+                                <p>Lorem ipsum dolor sit amet, consecteturNostrum s nemo iusto, nesciunt quis impedit.  </p>
+                                <a href="#" class="text-button">order</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Menu End ***** -->
+    {%endblock%}
+
+    {block footer}
